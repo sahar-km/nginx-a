@@ -7,7 +7,7 @@ import { connect } from "cloudflare:sockets";
 // generate your own UUID: https://www.uuidgenerator.net/
 let userID = "780c8b60-b213-47d6-9962-390c0b99e979";
 
-const proxyIPs = ['workers.cloudflare.cyou', 'cdn.xn--b6gac.eu.org']; // OR use  ['workers.bestip.one', 'cdn-all.xn--b6gac.eu.org'];
+const proxyIPs = ['workers.cloudflare.cyou', '62.3.12.185']; // OR use  ['workers.bestip.one', 'cdn-all.xn--b6gac.eu.org'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
