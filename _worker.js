@@ -11,11 +11,11 @@ let userID = 'cf8cf683-40fa-4cd3-93cd-820071b11c90';
 
 // https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records
 
-const proxyIPs= ['152.67.151.178'];// OR USE const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
+const proxyIPs= ['47.254.66.75'];// OR USE const proxyIPs = ['cdn.xn--b6gac.eu.org', 'cdn-all.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let dohURL = 'https://cloudflare-dns.com/dns-query';
+let dohURL = 'https://94.140.14.14/dns-query';
 
 let panelVersion = '2.3.3';
 
