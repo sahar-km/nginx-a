@@ -12,7 +12,7 @@ let userID = 'cf8cf683-40fa-4cd3-93cd-820071b11c90';
 const proxyIPs= ['43.153.80.208', '216.146.25.209'];// OR USE ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-let dohURL = 'https://dns.adguard-dns.com/dns-query';
+let dohURL = 'https://cloudflare-dns.com/dns-query';
 
 let panelVersion = 'v2.3.4';
 let REvil = 'Freedom to Dream 🤍';
