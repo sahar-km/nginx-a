@@ -9,7 +9,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = 'cf8cf683-40fa-4cd3-93cd-820071b11c90';
 
 // https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/
-const proxyIPs= ['216.146.25.209', '5.161.210.3'];// OR USE ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
+const proxyIPs= ['43.153.80.208', '216.146.25.209', '5.161.210.3'];// OR USE ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://dns.adguard-dns.com/dns-query';
