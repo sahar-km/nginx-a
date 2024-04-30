@@ -9,13 +9,13 @@ import { connect } from 'cloudflare:sockets';
 let userID = 'cf8cf683-40fa-4cd3-93cd-820071b11c90';
 
 // https://www.nslookup.io/domains/cdn-all.xn--b6gac.eu.org/dns-records/
-const proxyIPs= ['152.67.151.178'];// OR USE ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
+const proxyIPs= ['43.153.80.208'];// OR USE ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'workers.cloudflare.cyou'];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://cloudflare-dns.com/dns-query';
 
 let panelVersion = 'v2.3.4';
-let REvil = 'Freedom to Dream 🤍';
+let REvil = 'Freedom to Dream';
 
 if (!isValidUUID(userID)) {
     throw new Error('uuid is not valid');
@@ -784,7 +784,7 @@ const getNormalConfigs = async (env, hostName, client) => {
     ];
 
     Addresses.forEach((addr) => {
-        let remark = `🗿 ${addr}`;
+        let remark = `|BpB| ${addr}`;
         remark = remark.length <= 30 ? remark : `${remark.slice(0,29)}...`;
 
         vlessWsTls += 'vless' + `://${userID}@${addr}:443?encryption=none&security=tls&type=ws&host=${
@@ -1540,7 +1540,7 @@ const renderHomePage = async (env, hostName, fragConfigs) => {
 	</head>
 	
 	<body>
-		<h1> 🚬🗿 BPB Panel <span style="font-size: smaller;">${panelVersion}</span> </h3>
+		<h1> 👻 BPB Panel <span style="font-size: smaller;">${panelVersion}</span> </h3>
             <hr>            
 			<h2>${REvil} </h2>
 		<div class="form-container">
